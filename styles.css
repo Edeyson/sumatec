@@ -53,3 +53,8 @@
 .titulo{
     font-size: 2rem;
 }
+
+footer{
+    background-color: rgb(2, 2, 2);
+    color: #fff;
+}
