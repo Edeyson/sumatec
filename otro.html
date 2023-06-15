@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://www.sumatec.co/media/favicon/stores/1/Favicon_Sumatec.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <section>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a href="/"><img src="src/Logos_Sumatec.webp" alt="logo" title="logo" width="150"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="otro.html">Pedidos</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+    <section class="container shadow p-3 mt-3 formulario">
+
+        <form class="row g-3">
+            <p class="mb-0 mt-4 text-center"><strong>Salida</strong></p>
+            <div class="col-md-4 d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 12q-1.65 0-2.825-1.175T8 8q0-1.65 1.175-2.825T12 4q1.65 0 2.825 1.175T16 8q0 1.65-1.175 2.825T12 12Zm-8 8v-2.8q0-.85.438-1.563T5.6 14.55q1.55-.775 3.15-1.163T12 13q1.65 0 3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20H4Z"/></svg>
+              <input type="text" class="form-control" placeholder="Proveedor" id="Proveedor" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title="Registra el nombre del proveedor">
+            </div>
+            <div class="col-md-4 d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1024 1024"><path fill="currentColor" d="M872 394c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8H708V152c0-4.4-3.6-8-8-8h-64c-4.4 0-8 3.6-8 8v166H400V152c0-4.4-3.6-8-8-8h-64c-4.4 0-8 3.6-8 8v166H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h168v236H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h168v166c0 4.4 3.6 8 8 8h64c4.4 0 8-3.6 8-8V706h228v166c0 4.4 3.6 8 8 8h64c4.4 0 8-3.6 8-8V706h164c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8H708V394h164zM628 630H400V394h228v236z"/></svg>
+                <input type="text" class="form-control" placeholder="Número del pedido (#18792)" id="Numero_pedido" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title="Registra el número de pedido">
+            </div>
+            <div class="col-md-4 d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15c0-1.09 1.01-1.85 2.7-1.85c1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61c0 2.31 1.91 3.46 4.7 4.13c2.5.6 3 1.48 3 2.41c0 .69-.49 1.79-2.7 1.79c-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55c0-2.84-2.43-3.81-4.7-4.4z"/></svg>
+                <input type="number" class="form-control" placeholder="Valor de factura (10000)" id="valor_factura" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title="Ingresa el valor de la factura">
+            </div>
+            <div class="col-md-4 d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19 7h-3l4-4l4 4h-3v14h-2V7M8 16h3v-3H8v3m5-11h-1V3h-2v2H6V3H4v2H3c-1.11 0-2 .89-2 2v11c0 1.11.89 2 2 2h10c1.11 0 2-.89 2-2V7c0-1.11-.89-2-2-2M3 18v-7h10v7H3Z"/></svg>
+                <input type="datetime-local" class="form-control" id="fecha_envio" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title="Ingresa la fecha y hora de envío">
+            </div>
+            <p class="mb-0 mt-4 text-center"><strong>Llegada</strong></p>
+            <div class="col-md-4 d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19 15h-2v-2h2m0 6h-2v-2h2M13 7h-2V5h2m0 6h-2V9h2m0 6h-2v-2h2m0 6h-2v-2h2m-6-6H5V9h2m0 6H5v-2h2m0 6H5v-2h2m8-6V5l-3-3l-3 3v2H3v14h18V11h-6Z"/></svg>
+                <input type="text" class="form-control" placeholder="Ciudad de llegada (Manizales)" id="ciudad" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title="Ingresa la ciudad de llegada">
+            </div>
+            <div class="col-md-4 d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20"><path fill="currentColor" d="M2 3.5A1.5 1.5 0 0 1 4.915 3H16.5a1.5 1.5 0 0 1 .497 2.916L17 6v7a3 3 0 0 1-3 3H7a2.99 2.99 0 0 1-2-.764v2.014a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1-.75-.75V3.5ZM16 13V6H5v7a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2ZM4 5h12.5a.5.5 0 0 0 0-1H4v-.5a.5.5 0 0 0-1 0V17h1V5Zm3.5 4.955v2.55a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-2.55a1 1 0 0 0-.336-.748l-2.332-2.07a.5.5 0 0 0-.664 0l-2.332 2.07a1 1 0 0 0-.336.748Z"/></svg>
+                <input type="text" class="form-control" placeholder="Departamento de llegada (Caldas)" id="departamento" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title="Ingresa el departamento (estado) de llegada">
+            </div>
+            <div class="col-md-4 d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48"><mask id="ipSZip0"><g fill="none" stroke-width="4"><path fill="#fff" fill-rule="evenodd" stroke="#fff" stroke-linejoin="round" d="M4.629 12.749L24 5l19.371 7.749a1 1 0 0 1 .629.928V42a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V13.677a1 1 0 0 1 .629-.928Z" clip-rule="evenodd"/><path stroke="#000" stroke-linecap="round" d="M24 22v10"/><path stroke="#000" d="M33 27c1.657 0 3-1.12 3-2.5S34.657 22 33 22h-2.7a.3.3 0 0 0-.3.3v2.2c0 1.38 1.343 2.5 3 2.5Z" clip-rule="evenodd"/><path stroke="#000" stroke-linecap="round" d="M30 22v10"/><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M12 22h6.005L12 32h6.005"/></g></mask><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipSZip0)"/></svg>
+                <input type="text" class="form-control" placeholder="Código postal - zip (170001)" id="codigo_postal" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title="Ingresa el código zip del lugar de llegada">
+            </div>
+            <div class="col-md-4 d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M21 17h3l-4 4l-4-4h3V3h2v14M8 16h3v-3H8v3m5-11h-1V3h-2v2H6V3H4v2H3c-1.11 0-2 .89-2 2v11c0 1.11.89 2 2 2h10c1.11 0 2-.89 2-2V7c0-1.11-.89-2-2-2M3 18v-7h10v7H3Z"/></svg>
+                <input type="datetime-local" class="form-control" id="fecha_llegada" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title="Ingresa la fecha y hora estimada de llegada">
+            </div>
+            <div class="col-md-12">
+                <div class="row my-3">
+                    <div class="col-6 col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                              <b>ref:</b>
+                                EINHELL | 218500270 
+                              <br>
+                              <b>cantidad</b>: 1000
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <b>ref:</b>
+                                  STANLEY | 191900104
+                                <br>
+                                <b>cantidad</b>: 15000
+                              </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title="Agregar producto">
+                        <button class="accordion-button collapsed add_productos" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 12h6m0 0h6m-6 0v6m0-6V6"/></svg>
+                        </button>
+                    </div>
+                    
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <form class="g-3">
+                                    <p class="mb-3 mt-4 text-center"><strong>Agregar producto</strong></p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input required type="text" class="form-control" placeholder="Referencia (ej. CRESCENT | 220010332 )" id="referencia" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title="Ingresa la referencia del producto">
+                                          </div>
+                                          <div class="col-md-6">
+                                              <input required type="number" class="form-control" placeholder="Cantidad (ej. 10000)" id="referencia" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title="Ingresa la cantidad del producto">
+                                          </div>
+                                          <div class="mt-2 text-center">
+                                            <button class="btn btn-secondary" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                                aria-controls="panelsStayOpen-collapseTwo">
+                                                cancelar
+                                            </button>
+                                            <button type="submit" class="btn btn-danger">Guardar</button>
+
+                                          </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    
+                </div>
+                
+            </div>
+            <div class="col-12">
+                <textarea type="text" class="form-control" id="bl_embarque" placeholder="Detalles sobre el embarque">
+                    </textarea>
+              </div>
+              <hr>
+              
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Guardar</button>
+            </div>
+          </form>
+    </section>
+
+
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styles.css">
+<script src="code.js"></script>
+
+
+<script src="https://cdn.tiny.cloud/1/fk3ei3e4414urq1ljm4n9ly0msn3v1z98xcjmo2kc1kbppnt/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+<script>
+tinymce.init({
+  selector: 'textarea',
+  plugins: 'autosave anchor autolink emoticons image link lists media searchreplace table visualblocks wordcount help',
+  menubar: 'file edit view insert format tools table help',
+  toolbar: 'undo redo | fontsize | bold italic underline strikethrough | link | align lineheight | numlist bullist indent outdent | emoticons | searchreplace',
+  height: 270,
+  content_style: 'li { line-height: 1.5; }',
+  toolbar_sticky: true,
+  mobile: {
+    menubar: true,
+    toolbar_mode: 'floating',
+    toolbar: 'undo redo fontsize bold italic underline strikethrough link align lineheight numlist bullist indent outdent emoticons searchreplace',
+    height: 350,
+  }
+});
+</script> 
+
+<script>
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+
+</html>

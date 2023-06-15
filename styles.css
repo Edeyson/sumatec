@@ -1,0 +1,55 @@
+.formulario{
+    border-radius: 14px;
+    background-color: #ededed;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: #c10d0e !important;
+    --bs-tooltip-font-size: 16px !important;
+  }
+
+
+.add_productos{
+    margin: auto;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    border-radius: .7rem;
+}
+.add_productos svg{
+    color: rgb(17, 17, 17) !important;
+}
+
+.card{
+    text-align: center;
+    border-radius: .7rem;
+    background-color: #dfdcdc;
+    border: none;
+}
+
+.add_productos.collapsed{
+    background-color: rgb(180, 177, 177);
+    color: rgb(52, 52, 53);
+}
+
+.add_productos[aria-expanded='true']{
+    background-color: #c10d0e;
+    color: aliceblue;
+}
+.add_productos[aria-expanded='true'] svg{
+    color: aliceblue !important;
+}
+
+.add_productos svg{
+    outline: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.formulario svg{
+    color: #c10d0e;
+}
+
+.titulo{
+    font-size: 2rem;
+}
