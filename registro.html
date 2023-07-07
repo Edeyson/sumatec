@@ -34,9 +34,16 @@
 
         <form class="row g-3">
             <div class="d-flex justify-content-between flex-wrap">
-              <div class="d-flex align-items-center gap-3">
-                <div id="qrcode"></div>
-                <a href="#" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title="Escanea el código QR">
+              <div class="d-flex align-items-center gap-3 " style="position: relative;">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><g transform="rotate(180 10 10)"><path fill="currentColor" d="M5.315 3.401c-1.61 0-2.916 1.343-2.916 3c0 1.656 1.306 3 2.916 3c2.915 0 .972 5.799-2.916 5.799v1.4c6.939.001 9.658-13.199 2.916-13.199zm8.4 0c-1.609 0-2.915 1.343-2.915 3c0 1.656 1.306 3 2.915 3c2.916 0 .973 5.799-2.915 5.799v1.4c6.938.001 9.657-13.199 2.915-13.199z"/></g></svg>
+                  <span style="font-size: 1.4rem;">
+                    Más para ti, más para todos
+                  </span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M5.315 3.401c-1.61 0-2.916 1.343-2.916 3c0 1.656 1.306 3 2.916 3c2.915 0 .972 5.799-2.916 5.799v1.4c6.939.001 9.658-13.199 2.916-13.199zm8.4 0c-1.609 0-2.915 1.343-2.915 3c0 1.656 1.306 3 2.915 3c2.916 0 .973 5.799-2.915 5.799v1.4c6.938.001 9.657-13.199 2.915-13.199z"/></svg>
+                  <div id="qrcode"></div>
+                </div>
+                <a style="position: absolute; left: 8rem;" href="#" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title="Escanea el código QR">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M9 3h6l2 2h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h4l2-2Zm3 16a6 6 0 1 0 0-12a6 6 0 0 0 0 12Zm0-2a4 4 0 1 1 0-8a4 4 0 0 1 0 8Z"/></svg>
                 </a>
               </div>
